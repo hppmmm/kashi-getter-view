@@ -1,3 +1,19 @@
+/*===============================================
+画面の横幅が769px以上（パソコン用）
+===============================================*/
+@media screen and (min-width: 769px){
+}
+/*===============================================
+画面の横幅が768pxまで（タブレット用）
+===============================================*/
+@media screen and (max-width: 768px){
+}
+
+/*===============================================
+画面の横幅が640pxまで（スマホ用）
+===============================================*/
+@media screen and (max-width:640px){
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +26,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root{
+  margin-inline-start: 3em;
+  margin-inline-end: 3em;
+  margin-block-end: 3em;
 }

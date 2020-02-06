@@ -1,0 +1,21 @@
+#submitButton{
+  margin: 1em !important;
+}
+
+.lyricPaper{
+  padding: 1em !important;
+}
+
+.MuiFormControl-root {
+  display: flex !important;
+}
+
+.formText{
+  width: 50%;
+  margin: auto!important;
+}
+
+.kashiTitle{
+  display: inline-block;
+  padding-inline-end: 1em;
+}

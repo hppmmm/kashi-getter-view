@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.supportTitle {
+  margin: 0;
+}
+
+
+.expample-text{
+  padding-block-end: 1em;
+}
+
+#lyric{
+  white-space: pre-line
+}
